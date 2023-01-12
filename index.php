@@ -14,27 +14,32 @@
             </div>
           </div>
           <!-- Search Box -->
-          <div class="row">
-            <div class="col-xl-8">
-              <!-- form -->
-              <form action="#" class="search-box">
-                <div class="input-form">
-                  <input type="text" placeholder="Job Tittle or keyword">
-                </div>
-                <div class="select-form">
-                  <div class="select-itms">
-                    <select name="select" id="select1">
-                      <option value="">Location BD</option>
-                      <option value="">Location PK</option>
-                      <option value="">Location US</option>
-                      <option value="">Location UK</option>
-                    </select>
+          <div>
+            <?php
+            include 'connect.php';
+            ?>
+            <div class="row">
+              <div class="col-xl-8">
+                <!-- form -->
+                <form action="#" class="search-box">
+                  <div class="input-form">
+                    <input type="text" placeholder="Job Tittle or keyword">
                   </div>
-                </div>
-                <div class="search-form">
-                  <a href="#">Find job</a>
-                </div>
-              </form>
+                  <div class="select-form">
+                    <div class="select-itms">
+                      <select name="select" id="select1">
+                        <option value="">Location BD</option>
+                        <option value="">Location PK</option>
+                        <option value="">Location US</option>
+                        <option value="">Location UK</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="search-form">
+                    <a href="#">Find job</a>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
@@ -61,7 +66,7 @@
               <span class="flaticon-tour"></span>
             </div>
             <div class="services-cap">
-              <h5><a href="job_listing.html">Design & Creative</a></h5>
+              <h5><a href="job_listing.php">Design & Creative</a></h5>
               <span>(653)</span>
             </div>
           </div>
@@ -72,7 +77,7 @@
               <span class="flaticon-cms"></span>
             </div>
             <div class="services-cap">
-              <h5><a href="job_listing.html">Design & Development</a></h5>
+              <h5><a href="job_listing.php">Design & Development</a></h5>
               <span>(658)</span>
             </div>
           </div>
@@ -83,7 +88,7 @@
               <span class="flaticon-report"></span>
             </div>
             <div class="services-cap">
-              <h5><a href="job_listing.html">Sales & Marketing</a></h5>
+              <h5><a href="job_listing.php">Sales & Marketing</a></h5>
               <span>(658)</span>
             </div>
           </div>
@@ -94,7 +99,7 @@
               <span class="flaticon-app"></span>
             </div>
             <div class="services-cap">
-              <h5><a href="job_listing.html">Mobile Application</a></h5>
+              <h5><a href="job_listing.php">Mobile Application</a></h5>
               <span>(658)</span>
             </div>
           </div>
@@ -105,7 +110,7 @@
               <span class="flaticon-helmet"></span>
             </div>
             <div class="services-cap">
-              <h5><a href="job_listing.html">Construction</a></h5>
+              <h5><a href="job_listing.php">Construction</a></h5>
               <span>(658)</span>
             </div>
           </div>
@@ -116,7 +121,7 @@
               <span class="flaticon-high-tech"></span>
             </div>
             <div class="services-cap">
-              <h5><a href="job_listing.html">Information Technology</a></h5>
+              <h5><a href="job_listing.php">Information Technology</a></h5>
               <span>(658)</span>
             </div>
           </div>
@@ -127,7 +132,7 @@
               <span class="flaticon-real-estate"></span>
             </div>
             <div class="services-cap">
-              <h5><a href="job_listing.html">Real Estate</a></h5>
+              <h5><a href="job_listing.php">Real Estate</a></h5>
               <span>(658)</span>
             </div>
           </div>
@@ -138,7 +143,7 @@
               <span class="flaticon-content"></span>
             </div>
             <div class="services-cap">
-              <h5><a href="job_listing.html">Content Writer</a></h5>
+              <h5><a href="job_listing.php">Content Writer</a></h5>
               <span>(658)</span>
             </div>
           </div>
@@ -149,7 +154,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="browse-btn2 text-center mt-50">
-            <a href="job_listing.html" class="border-btn2">Browse All Sectors</a>
+            <a href="job_listing.php" class="border-btn2">Browse All Sectors</a>
           </div>
         </div>
       </div>

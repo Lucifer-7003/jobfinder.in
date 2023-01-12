@@ -7,7 +7,7 @@
           <div class="col-lg-3 col-md-2">
             <!-- Logo -->
             <div class="logo">
-              <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+              <a href="/"><img src="assets/img/logo/logo.png" alt=""></a>
             </div>
           </div>
           <div class="col-lg-9 col-md-9">
@@ -17,14 +17,14 @@
                 <nav class="d-none d-lg-block">
                   <ul id="navigation">
                     <li><a href="/">Home</a></li>
-                    <li><a href="job_listing.html">Find a Jobs </a></li>
+                    <li><a href="job_listing.php">Find a Jobs </a></li>
                     <li><a href="about.php">About</a></li>
                     <li><a href="#">Page</a>
                       <ul class="submenu">
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="single-blog.html">Blog Details</a></li>
+                        <!-- <li><a href="blog.html">Blog</a></li>
+                        <li><a href="single-blog.html">Blog Details</a></li> -->
                         <li><a href="elements.html">Elements</a></li>
-                        <li><a href="job_details.html">job Details</a></li>
+                        <li><a href="job_details.php">job Details</a></li>
                       </ul>
                     </li>
                     <li><a href="contact.php">Contact</a></li>
